@@ -1,1 +1,13 @@
+@font-face {
+    font-family: 'URW Chancery L';
+    src: url('fonts/URWChanceryL.woff2') format('woff2'),
+         url('fonts/URWChanceryL.woff') format('woff'),
+         url('fonts/URWChanceryL.ttf') format('truetype');
+  }
 
+  body {
+    font-family: 'URW Chancery L', cursive;
+  }
+.about_me {
+    width: 40vw;
+}
