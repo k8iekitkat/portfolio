@@ -6,8 +6,44 @@
   }
 
   body {
-    font-family: 'URW Chancery L', cursive;
+    font-family: 'URW Chancery L';
+    font-style: italic;
+    background-color: #F2E7DD;
   }
-.about_me {
-    width: 40vw;
+
+  #name {
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    margin-top: 35vw;
+    margin-left: 5vw;
+    padding-top: 20px;
+    padding-left:15px;
+    padding-right: 15px;
+    float: left;
+    font-size: 30px;
+  }
+
+  #about_me {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* makes it so that the list is horizontal */
+  #links ul li{  
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+details {
+  width: 50vw;
+  position: absolute;
+  margin: 10px;
 }

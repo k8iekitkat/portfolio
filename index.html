@@ -10,21 +10,30 @@
 
 <body>
   <!-- Your page content goes here -->
-  <div class="about_me">
-    <h1 class="name">kaitlyn jao</h1>
-    <h3>
-      about me : 
-      hello! my name is kaitlyn jao, but i go by katie. if you're seeing this, going for them personality hires 
-    </h3>
-  </div>
-
-    <div>
-        <a href= "https://www.linkedin.com/feed/"> LinkedIn </a>
-        <a href= "https://github.com/k8iekitkat"> GitHub </a>
-        <a> Resume </a>
+    <div id="name">
+        <h1>kaitlyn jao</h1>
     </div>
 
-    <div>
+    <div>   
+        <h3 id="about_me">
+            about me : 
+            hello! my name is kaitlyn jao, but i go by katie. if you're seeing this, going for them personality hires 
+        </h3>
+        <div id="links">
+            <ul>
+                <li><a href= "https://www.linkedin.com/feed/"> LinkedIn </a></li>
+                <li><a href= "https://github.com/k8iekitkat"> GitHub </a></li>
+                <li><a> Resume </a></li>
+            </ul>
+        </div>
+    </div>
+
+ 
+
+    <!-- Experience Section Drop Down -->
+
+    <details>
+        <summary> Experience </summary>
         <div class="it_intern">
             <h3>
                 Information Technology Intern
@@ -39,42 +48,47 @@
                 • Organized meetings to clarify requirements and maintain alignment with organizational objectives.
 
             </p>
-        </div>
-    </div>
+    </details>
 
-    <div> <!-- Project section -->
-        <h2>
-        Projects
-        </h2>
-        <div class="project_1">
-            <h3>
-                Nu Deck
-            </h3>
-            <p>
-                • Engineered a Pokemon-style game from scratch, including tile-based movement, map collisions, randomized
-                encounters, and a turn-based battle system.
-                • Collaborated with 12 others to develop a custom handheld console featuring a Raspberry Pi, 4-inch display,
-                and 3D-modeled flip-open enclosure with integrated hinges and buttons within a month.
-                • Created detailed documentation for the project, outlining the development process, challenges faced, and solutions
-                implemented.
+    <!-- Project Drop Down -->
 
-            </p>
+    <details>
+        <summary> Projects </summary>
+        <div> <!-- Project Section -->
+            <h2>
+            Projects
+            </h2>
+            <div class="project_1">
+                <h3>
+                    Nu Deck
+                </h3>
+                <p>
+                    • Engineered a Pokemon-style game from scratch, including tile-based movement, map collisions, randomized
+                    encounters, and a turn-based battle system.
+                    • Collaborated with 12 others to develop a custom handheld console featuring a Raspberry Pi, 4-inch display,
+                    and 3D-modeled flip-open enclosure with integrated hinges and buttons within a month.
+                    • Created detailed documentation for the project, outlining the development process, challenges faced, and solutions
+                    implemented.
+    
+                </p>
+            </div>
+            <div class="project_2">
+                <h3>
+                    Leftover Food Tracker
+                </h3>
+                <p>
+                    • A manual Leftover Food Tracker to collect and analyze data, identifying patterns such as commonly leftover
+                    foods, estimated costs, and potential strategies for reducing waste.
+                    • Implemented data structures for effective information storage and management, ensuring quick and accurate access
+                    for analytical purposes.
+                    • Created detailed documentation for the project, outlining the development process, challenges faced, and solutions
+                    implemented.
+    
+                </p>
+            </div>
         </div>
-        <div class="project_2">
-            <h3>
-                Leftover Food Tracker
-            </h3>
-            <p>
-                • A manual Leftover Food Tracker to collect and analyze data, identifying patterns such as commonly leftover
-                foods, estimated costs, and potential strategies for reducing waste.
-                • Implemented data structures for effective information storage and management, ensuring quick and accurate access
-                for analytical purposes.
-                • Created detailed documentation for the project, outlining the development process, challenges faced, and solutions
-                implemented.
+    </details>
 
-            </p>
-        </div>
-    </div>
 
 </body>
 </html>
